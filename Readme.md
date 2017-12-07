@@ -18,11 +18,11 @@ An Arduino Uno was used due to the low power consumption, however any cheap prog
 
 ### 470 ohm resistor
 
-This is optional and I did not have a resistor to use for this, but it would be useful, especially if a battery is used instead of a transformer
+This is optional and I did not have a resistor to use for this, but it would be useful, especially if a battery is used instead of a transformer. This would be connected between the green data wire of the LED and pin 6.
 
 ### 100 micro ferret capacitor
 
-This is also an option part, which comes in handy if a battery is used instead of a transformer. It simply serves as a smoothing capacitor.
+This is also an option part, which comes in handy if a battery is used instead of a transformer. It simply serves as a smoothing capacitor. This would be connected between GND and 5v on the Arduino.
 
 ## The Setup
 
