@@ -32,7 +32,7 @@ On the other end, of the LEDs, there was a female connecter for the 3-pin as wel
 
 Since the at-at was on the floor and the falcon was on top of a roof, it made logical sense to have the at-at side (shooting green) be closer to the Uno where the power supply was located.
 
-!(Wiring Diagram)[wiringDiagram.png]
+![Wiring Diagram](/wiringDiagram.png?raw=true)
 
 ## The code
 
