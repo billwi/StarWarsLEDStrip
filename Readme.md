@@ -6,15 +6,15 @@ For Christmas 2017, I was tasked to program a set of LED strips to make it look 
 
 ### Power supply
 
-The power supply of choice was a 5 volt, 18 amp transformer from alitove. It worked well, providing screw terminals for the positive and negative.
+The power supply of choice was a 5 volt, 18 amp transformer from alitove. It worked well, providing screw terminals for the positive and negative. [Something like this, except 18 amps](https://www.amazon.com/ALITOVE-Adapter-Converter-Charger-5-5x2-1mm/dp/B01M0KLECZ/ref=cm_cr_arp_d_product_top?ie=UTF8)
 
 ### Logic board
 
-An Arduino Uno was used due to the low power consumption, however any cheap programming board would have worked, namely any Arduino clone, any Arduino board, or a Teensy.
+An Arduino Uno was used due to the low power consumption, however any cheap programming board would have worked, namely any Arduino clone, any Arduino board, or a Teensy. An official [Arduino Uno](https://www.amazon.com/Arduino-Uno-R3-Microcontroller-A000066/dp/B008GRTSV6/ref=sr_1_4?ie=UTF8&qid=1512700508&sr=8-4) was used, but a [good clone](https://www.amazon.com/Elegoo-Board-ATmega328P-ATMEGA16U2-Arduino/dp/B01EWOE0UU/ref=sr_1_3?ie=UTF8&qid=1512700508&sr=8-3&keywords=arduino+uno) would have worked just as well.
 
 ### LEDs
 
-2-5 meter strips of WS2812B strips were used. These were water proof, with a plastic sheath and glued down ends. This is useful since the lights will be placed outdoors.
+2-5 meter strips of WS2812B strips were used. These were water proof, with a plastic sheath and glued down ends. This is useful since the lights will be placed outdoors. Two reels of [this](https://www.amazon.com/dp/B018X04ES2/ref=psdc_11974311_t1_B00ZHB9M6A) were used.
 
 ### 470 ohm resistor
 
@@ -31,6 +31,8 @@ Everything will be placed outdoors, so a single supply was a must. The power sup
 On the other end, of the LEDs, there was a female connecter for the 3-pin as well as another 2 lose 5v and ground wires. The 3-pin connector directly connected to the 3-pin connector of the 2nd LED strip, requiring no other wires since it passed the power through flawlessly.
 
 Since the at-at was on the floor and the falcon was on top of a roof, it made logical sense to have the at-at side (shooting green) be closer to the Uno where the power supply was located.
+
+!(Wiring Diagram)[wiringDiagram.png]
 
 ## The code
 
