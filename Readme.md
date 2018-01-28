@@ -49,3 +49,7 @@ The WS2812B does not use RGB like most normal LEDs, but rather GRB. I was unawar
 ## End result
 
 The end result has a green bolt fire from the at-at to the falcon, at up to 4 consecutive bolts (chosen randomly). The falcon will then fire back, again randomly at 1-4 bolts, but green. A video will be attached later :)
+
+## Sources
+
+- [https://www.tweaking4all.com/hardware/arduino/arduino-ws2812-led/](https://www.tweaking4all.com/hardware/arduino/arduino-ws2812-led/)
