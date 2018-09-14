@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Star Wars style LED firing with WS2812
 
 For Christmas 2017, I was tasked to program a set of LED strips to make it look like an at-at was firing at the millennium falcon and vice versa. They were placed approximately 30 feet, or 10 meters apart. While factually both the at-at and the millennium falcon shoot red lasers, for some variety I decided to use green for the at-at and red for the falcon.
