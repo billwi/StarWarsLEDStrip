@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Star Wars style LED firing with WS2812
 
 For Christmas 2017, I was tasked to program a set of LED strips to make it look like an at-at was firing at the millennium falcon and vice versa. They were placed approximately 30 feet, or 10 meters apart. While factually both the at-at and the millennium falcon shoot red lasers, for some variety I decided to use green for the at-at and red for the falcon.
@@ -53,3 +57,7 @@ The end result has a green bolt fire from the at-at to the falcon, at up to 4 co
 ## Sources
 
 - [https://www.tweaking4all.com/hardware/arduino/arduino-ws2812-led/](https://www.tweaking4all.com/hardware/arduino/arduino-ws2812-led/)
+
+-----------------------------------
+
+[Link to repository](https://github.com/cool00geek/StarWarsLEDStrip)
